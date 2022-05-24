@@ -4,8 +4,10 @@
 
 This is a portfoio project for ALX africa
 
+#About
 And it is an app that lets you search recipe based on number of calories you desire to intake
 
+#features
 ![image 1](docs/asset/captures_chrome-capture-2022-4-24.png)
 ![image 2](docs/asset/second.png)
 ![image 3](docs/asset/third.png)
