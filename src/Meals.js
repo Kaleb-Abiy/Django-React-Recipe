@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+//this function takes props
 function Meals({title, image, link}) {
     return ( 
         <div className="col-md-4">
