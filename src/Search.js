@@ -8,6 +8,8 @@ function Search() {
     const [meals, setMeals] = useState([]);
     const url = `https://api.spoonacular.com/mealplanner/generate?timeFrame=day&targetCalories=${calorie}&apiKey=ca41ab6461834f009b5883a56159f181`
     const base_img_url = 'https://spoonacular.com/recipeImages/'
+    
+    //this function called everytime the variable total is changing
     useEffect(()=>{
         fetch(url)
         .then(response => response.json())
@@ -16,7 +18,7 @@ function Search() {
 
     console.log(meals)
 
-
+    //this function excutes when submit button is clicked
     const handleSubmit = (e)=>{
         e.preventDefault()
         setTotal(calorie)
